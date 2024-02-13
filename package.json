@@ -1,0 +1,32 @@
+{
+  "name": "mem-kwil-ext",
+  "version": "0.0.1",
+  "description": "Kwil Network extension for the MEM protocol",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentldotland/mem-kwil-ext.git"
+  },
+  "keywords": [
+    "MEM",
+    "Kwil",
+    "DB"
+  ],
+  "author": "charmful0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentldotland/mem-kwil-ext/issues"
+  },
+  "homepage": "https://github.com/decentldotland/mem-kwil-ext#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@kwilteam/extensions": "^0.0.4",
+    "axios": "^1.6.7",
+    "mem-sdk": "^1.0.6"
+  }
+}
